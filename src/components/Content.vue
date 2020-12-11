@@ -1,0 +1,36 @@
+<template>
+  <div class="header">
+    <div class="navbar">
+      <div class="logo">
+
+      </div>
+      <nav>
+        <ul>
+          <li><a href="products.html">Продукты</a></li>
+          <li><a href="about.html">О нас</a></li>
+          <li><a href="contacts.html">Контакты</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="row">
+      <div class="col-2">
+        <h1>+7(914) 270-52-05</h1>
+        <p class="initial-text">Адрес: ул. Пояркова, 20/1, Якутск</p>
+        <a href="" class="btn">Узнать больше </a>
+      </div>
+      <div class="col-2">
+        <img src="https://www.flaticon.com/svg/static/icons/svg/171/171420.svg" alt="">
+      </div>
+    </div>
+  </div>
+</template>
+
+<style lang="scss">
+
+
+</style>
+<script>
+  export default {
+    name: 'Content'
+  }
+</script>
